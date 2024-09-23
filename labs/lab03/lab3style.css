@@ -13,7 +13,19 @@ footer {
 img {
     font-family: 'Comic Sans MS';
 }
+p{
+    font-family: Wingdings;
+}
 body {
     background-color: black;
     color: white;
+}
+.nosocialclasses
+{
+    color: crimson;
+}
+
+#whatshouldthisbeusedfor
+{
+    color:blue
 }
