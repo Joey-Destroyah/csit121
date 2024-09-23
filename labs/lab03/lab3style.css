@@ -20,6 +20,10 @@ body {
     background-color: black;
     color: white;
 }
+:any-link
+{
+    color: gray;
+}
 .nosocialclasses
 {
     color: crimson;
