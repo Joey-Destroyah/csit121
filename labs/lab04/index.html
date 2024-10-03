@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lab04style.css">
+    <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>Post 4</title>
@@ -11,16 +12,27 @@
 <body>
     <h1>The Darkness Spreads Amore</h1>
     <h2>and so do the memes</h2>
-   <img src="https://imgflip.com/i/94ph" onerror= iferror()>
+<img src="https://imgflip.com/i/94ph" onerror= "error()">
     <p> I dunno what to put here... </p>
-<script>
-    function iferror() {
-        <video width="50" height="50" controls>
-
-            <source src="dog.mp4" type="video/mp4"> 
-            </source>
-        </video>
+    <script>
+        function error() {
+            <body>
+            <video 
+            id="dogcheck"
+            class="video-js"
+            controls
+            preload="auto"
+            width="200"
+            height="200"
+            data-setup="{}"
+            >
+    
+                <source src="dog.mp4" type="video/mp4" />
+            </video>
+            <script src="https://vjs.zencdn.net/8.16.1/video.min.js"
+        />
+        </body>
     }
-</script>
+    </script>
 </body>
 </html>
