@@ -27,7 +27,7 @@ body {
     margin-right: auto;
     width: 80%;
 }
-    @media (min-width: 600px) {
+    @media (max-width: 600px) {
 main ul {
         
     display: none;
