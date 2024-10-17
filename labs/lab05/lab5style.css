@@ -1,0 +1,49 @@
+h1 {
+
+    color: red;
+}
+article {
+    font-style: italic;
+}
+/* this is a test of the commenting system */
+
+footer {
+    font-family: "comic serif";
+}
+img {
+    font-family: 'Comic Sans MS';
+    justify-content: center;
+    justify-items: center;
+}
+p{
+    font-family: Wingdings;
+}
+body {
+    background-color: black;
+    color: white;
+    display:grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+    @media (min-width: 600px) {
+main ul {
+        
+    display: none;
+    }
+}
+}
+:any-link
+{
+    color: gray;
+}
+.nosocialclasses
+{
+    color: crimson;
+}
+
+#whatshouldthisbeusedfor
+{
+    color:blue
+}
