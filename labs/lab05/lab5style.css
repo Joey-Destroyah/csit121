@@ -1,44 +1,47 @@
 h1 {
 
     color: red;
+    margin: 0;
 }
 article {
     font-style: italic;
 }
-/* this is a test of the commenting system */
+ul{
+    display: grid;
+    grid-template-columns: max-content;
+}
+/* .changelook {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aquamarine;
+}
+    attempted to make style change code for mobile but failed 
+    */
+ol {
+    display: grid;
+   grid-column: span;
+}
 
 footer {
     font-family: "comic serif";
 }
 img {
     font-family: 'Comic Sans MS';
-    justify-content: center;
-    justify-items: center;
 }
 p{
     font-family: Wingdings;
 }
 body {
+    text-align: center;
+    margin: 0;
+    line-height: 25px;
     background-color: black;
     color: white;
-    display:grid;
-    grid-template-columns: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    @media (max-width: 600px) {
-        background-color: red;
-        display:none;
-        }
-}
-main {
-
-
-    @media (min-width: 600px) {
-        
-    display:none;
-    }
-}
+    /*display: flex;
+    flex-direction: column;*/
+    display: grid;
+    row-gap: 3em;
+    column-gap: 3em;
 }
 :any-link
 {
