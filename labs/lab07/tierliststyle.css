@@ -1,4 +1,10 @@
 body {
 background-color: black;
-color: white;
+color: #ffffff;
+}
+th {
+    background-color: red;
+}
+td{
+    background-color: blue;
 }

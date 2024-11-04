@@ -1,3 +1,19 @@
 body {
-    background-color: blue;
+    background-color: navy;
+}
+ul{
+    list-style-type: circle;
+    color: red;
+}
+link {
+    color: red;
+}
+a {
+    color: red;
+}
+form {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    flex-grow: initial;
 }
