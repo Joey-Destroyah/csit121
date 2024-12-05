@@ -1,0 +1,35 @@
+h1 {
+
+    color: red;
+}
+article {
+    font-style: italic;
+}
+/* this is a test of the commenting system */
+
+footer {
+    font-family: "comic serif";
+}
+img {
+    font-family: 'Comic Sans MS';
+}
+p{
+    font-family: Wingdings;
+}
+body {
+    background-color: black;
+    color: white;
+}
+:any-link
+{
+    color: gray;
+}
+.nosocialclasses
+{
+    color: crimson;
+}
+
+#whatshouldthisbeusedfor
+{
+    color:blue
+}

@@ -1,0 +1,19 @@
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body 
+{
+    background-color:black;
+    color: white;
+    flex-direction: column;
+}
+article {
+   /* font-family: 'Times New Roman'; 
+   Commented out because the default HTML font is Times New Roman */
+    font-size: medium;
+    background-color: black;
+}
+img
+{
+    font-family: 'Comic Sans MS';
+}

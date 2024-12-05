@@ -1,0 +1,54 @@
+h1 {
+
+    color: red;
+    margin: 0;
+}
+article {
+    font-style: italic;
+}
+ul{
+    display: grid;
+    grid-template-columns: max-content;
+}
+ol {
+    display: grid;
+   grid-column: span;
+   border-radius: 5px;
+   border-style: dashed;
+   border-color: white;
+}
+
+footer {
+    font-family: "comic serif";
+}
+img {
+    font-family: 'Comic Sans MS';
+}
+p{
+    font-family: Wingdings;
+}
+body {
+    text-align: center;
+    margin: 0;
+    line-height: 25px;
+    background-color: black;
+    color: white;
+    /*display: flex;
+    flex-direction: column;*/
+    display: grid;
+    row-gap: 3em;
+    column-gap: 3em;
+}
+:any-link
+{
+    color: gray;
+}
+.nosocialclasses
+{
+    color: crimson;
+}
+
+#whatshouldthisbeusedfor
+{
+    color:blue
+}
