@@ -23,7 +23,7 @@
         </ol>
         Features of the site included
         <img src="petya_skull.png" id="skullimg" width= 600 alt="this should be a skull, but if it isn't here, than please consult professor noon." style="height: 400px; padding-left: 25%;">
-            heres a <button onclick="imageChange()">Button</button> 
+            heres a <button id="changesrc">Button</button> 
 
         <ul class="style">
             <li>test</li>
@@ -36,10 +36,10 @@
             </h3>
             <p>This text was all changed to wingding objects. If you can't read HTML, good luck translating this...</p> <br>
             <script>
-                function imageChange() {
-                    const image = document.getElementByID('skullimg');
-                    image.src = 'doge.jpg';
-                }
+                document.getElementById("changesrc").addEventListener('click', function(){
+                const imagesrc = document.getElementByID('skullimg');
+                imagesrc.src = 'doge.jpg';
+                })
             </script>
         <footer> oh look, a link <a href="/lab06/lab06.html"> to the next lab!</a><br>
         <a href="/lab04/lab04.html">Link to the previous lab</a> </footer>
