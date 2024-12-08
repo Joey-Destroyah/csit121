@@ -17,7 +17,13 @@ ol {
    border-style: dashed;
    border-color: white;
 }
-
+/* .changelook {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aquamarine;
+}
+    attempted to make style change code for mobile but failed 
+    */
 footer {
     font-family: "comic serif";
 }
