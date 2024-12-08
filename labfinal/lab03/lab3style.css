@@ -19,6 +19,7 @@ p{
 body {
     background-color: black;
     color: white;
+    text-wrap-style:pretty;
 }
 :any-link
 {

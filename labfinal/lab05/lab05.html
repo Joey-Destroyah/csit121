@@ -2,45 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="lab05style.css">
-<title> Blog Post #1</title>
+    <link rel="stylesheet" href="lab5style.css">
+<title> HTML Renaissance PT 5</title>
 </head>
 <body>
-    <header> maybe one day this'll have a use</header> 
-    <h1>An Unknown Blog at the End of Time</h1>
-    <h2>Post #2: "WELCOME TO DARK MODE!" </h2>
+    <header> HTML Renaissance Part 5</header> 
+    <h1>An Unknown Blog in the middle of the HTML Renaissance</h1>
+    <h2>Post #1: "WELCOME BACK TO DARK MODE!" </h2>
         <main> 
             heya. I made some small changes, but overall, it's still the same.
         </main>
-        <article><h4>stupid heading requirement</h4> uhh anyways, this is apparently supposed to be an article of sorts, but i'm not one to write an entire essay about some topic. Go to <a href="https://sites.google.com/view/joeys-random-tech-portfolio/home?authuser=0"> my ePortfolio</a> for THAT debacle. The following is a list of pages I made in CSIT 101, in the order they were due...</article>
+        <article><h4><a href="/lab04/index.html">Previous Lab</a></h4></article>
         <ol>
             <li>The Homepage</li>
             <li> The Hub (not really an assignment, but there for convenience)</li>
             <li>Virtual PC Build</li>
             <li> MindMaps </li>
             <li>Social Media Impact</li>
-            <li>Cybersecurity in the Media (added this link because I feel like I knocked this one outta the park.)</li>
+            <li>  <img id="skull" src="petya_skull.png" alt="this should be a skull, but if it isn't here, than please consult professor noon." style="height: 400px; padding-left: 25%;"><a href="https://sites.google.com/view/joeys-random-tech-portfolio/cybersecurity?authuser=0"> Cybersecurity in the Media</a> (added this link because I feel like I knocked this one outta the park.)</li>
+            <li>heres a couple buttons that actually do something. <button id="lightButton" onclick="lightMode()"> Activate Light Mode </button> <button id="darkButton" onclick="darkMode()">Reactivate Dark Mode</button></li>
         </ol>
         Features of the site included
-        <img src="petya_skull.png" id="skullimg" width= 600 alt="this should be a skull, but if it isn't here, than please consult professor noon." style="height: 400px; padding-left: 25%;">
-            heres a <button id="changesrc">Button</button> 
-
-        <ul class="style">
-            <li>test</li>
+        
+        <ul>
+            <li>test</li> 
             <li>items</li>
             <li>I don't know what to put here anymore</li>
             <li>Here's a picture, most recently seen in  <a href="https://sites.google.com/view/joeys-random-tech-portfolio/cybersecurity?authuser=0"> Cybersecurity in the Media </a>  </li>
             </ul>
             <h3>
-            I learned that I still am unable to change an image using internal JavaScript.
+            I learned that I still knew a bit about CSS, making ordered lists, and I also made JS code to activate and deactivate light mode. Still can't change images though. :c
             </h3>
             <p>This text was all changed to wingding objects. If you can't read HTML, good luck translating this...</p> <br>
-            <script>
-                document.getElementById("changesrc").addEventListener('click', function(){
-                const imagesrc = document.getElementByID('skullimg');
-                imagesrc.src = 'doge.jpg';
-                })
-            </script>
-        <footer> oh look, a link <a href="/lab06/lab06.html"> to the next lab!</a><br>
-        <a href="/lab04/lab04.html">Link to the previous lab</a> </footer>
+            
+        <footer> oh look, a <a href="/lab06/lab06.html">Link to the next lab </footer>
+        <script>
+            document.getElementById("darkButton").style.display = "none";
+            document.getElementById("lightButton").style.display = "block";
+            function lightMode() {
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("lightButton").style.display = "none";
+                document.getElementById("darkButton").style.display = "block";
+            }
+            function darkMode() {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                document.getElementById("lightButton").style.display = "block";
+                document.getElementById("darkButton").style.display = "none";
+            }
+        </script>
+        </body>
         </html>
