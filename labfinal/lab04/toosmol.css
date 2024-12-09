@@ -1,0 +1,28 @@
+body {
+    color: black;
+    background-color: black;
+}
+h1 {
+    color: black;
+}
+article {
+color: black;
+}
+img {
+    display: none;
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: red;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.article {
+    display: none;
+}
+.error
+{
+    display: none;
+}
