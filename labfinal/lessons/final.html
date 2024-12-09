@@ -15,8 +15,27 @@
     a good structure and discipline. Media queries too, came to me in this final, and I am glad to have that.
     <br><br>
     Merry Christmas, Professor!
-    --Joey </p>
-
+    --Joey <br>
+    <button id="santa" onclick="materialize()">Click Me for Christmas! </button>
+    <button id="coal" onclick="deMaterialize()">Click me for Coal. :( </button>
+    <img src="santa.gif" id="clause">
+    <img src="coal.jpg" id="lump"> </p>
+        <script>
+            document.getElementById("coal").style.display = "none";
+            document.getElementById("lump").style.display = "none";
+            function deMaterialize() {
+            document.getElementById("clause").style.display = "none";
+            document.getElementById("santa").style.display = "block";
+            document.getElementById("coal").style.display = "none";
+            document.getElementById("lump").style.display = "block";
+            }
+           function materialize() {
+            document.getElementById("clause").style.display = "block";
+            document.getElementById("coal").style.display = "block";
+            document.getElementById("santa").style.display = "none";
+            document.getElementById("lump").style.display = "none";
+            }
+        </script>
 
 <a href="https://youtu.be/dQw4w9WgXcQ?si=ryhN61rlf1kZKfBt"> Next Page </a>
     <aside><a href="../lab01/lab01.html">If you want to start over, click here.</a></aside>    
