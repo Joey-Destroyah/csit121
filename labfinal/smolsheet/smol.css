@@ -11,9 +11,9 @@ ul {
 ol {
     font-style: italic;
 }
-.skull {
+.image {
     display: block;
     margin-left: auto;
     margin: auto;
-    width: 25%;
+    width: 50%;
 }
